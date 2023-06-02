@@ -6,6 +6,7 @@ using Skyline.DataMiner.Net.Messages;
 
 namespace GQIDSServiceAlarms_1
 {
+	[GQIMetaData(Name = "Service alarms")]
 	public class ServiceAlarms : IGQIDataSource, IGQIOnInit, IGQIOnPrepareFetch, IGQIInputArguments
 	{
 		private static readonly GQIStringArgument Service = new GQIStringArgument("Service") { IsRequired = true };
