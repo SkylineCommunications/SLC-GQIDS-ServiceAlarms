@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>GQIDSServiceAlarms</Name>
+	<Name>SLC-GQIDS-ServiceAlarms</Name>
 	<Description></Description>
 	<Type>Automation</Type>
-	<Author>SKYLINE2\Sebastiaan</Author>
+	<Author>Sebastiaan Dumoulein</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder></Folder>
+	<Folder>Catalog/Service Alarms</Folder>
 
 	<Protocols>
 	</Protocols>
@@ -18,8 +18,10 @@
 
 	<Script>
 		<Exe id="1" type="csharp">
-			<Value><![CDATA[[Project:GQIDSServiceAlarms_1]]]></Value>
+			<Value><![CDATA[[Project:SLC-GQIDS-ServiceAlarms]]]></Value>
 			<!--<Param type="debug">true</Param>-->
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">SLCGQIDSServiceAlarms</Param>
 			<Message></Message>
 		</Exe>
 	</Script>

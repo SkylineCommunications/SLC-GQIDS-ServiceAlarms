@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLC-GQIDS-ServiceAlarms", "SLC-GQIDS-ServiceAlarms\SLC-GQIDS-ServiceAlarms.csproj", "{507785E4-3DCA-4F35-B6D4-1FC55773A278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{7CF05760-8D38-4EEB-9845-8CF470564158}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507785E4-3DCA-4F35-B6D4-1FC55773A278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507785E4-3DCA-4F35-B6D4-1FC55773A278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507785E4-3DCA-4F35-B6D4-1FC55773A278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507785E4-3DCA-4F35-B6D4-1FC55773A278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CF05760-8D38-4EEB-9845-8CF470564158} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4B20F3-6C0D-4DFB-9812-03EF145DE557}
+	EndGlobalSection
+EndGlobal
