@@ -5,7 +5,7 @@
 	<Type>Automation</Type>
 	<Author>Sebastiaan Dumoulein</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder>Catalog/Service Alarms</Folder>
+	<Folder>DataMiner Catalog/Ad Hoc Data Sources</Folder>
 
 	<Protocols>
 	</Protocols>
