@@ -1,28 +1,28 @@
-# About
+# Service Alarms
 
-This Data Source is designed to provide information about active alarms within a service. By utilizing this data source, you can retrieve a row for each active alarm present in the service.
+## About
+
+This data source is designed to provide information about active alarms within a service. It will retrieve a row for each active alarm present in the service.
 
 ![Query builder](./Images/QueryBuilder.png)
 
-## Key Features
+## Input/output
 
-- Requires **input parameters** (Service name)
-- Returns alarms for the given service
+- Input: Service name
+- Output: Information about each of the active alarms of the specified service:
 
-## Available Columns
-
-- ID (String)
-- Element (String)
-- Parameter (String)
-- Value (String)
-- Time (DateTime)
-- Severity (String)
-- Owner (String)
+  - ID (String)
+  - Element (String)
+  - Parameter (String)
+  - Value (String)
+  - Time (DateTime)
+  - Severity (String)
+  - Owner (String)
 
 ## Use Cases
 
-You can use this data source in a dynamic context by linking the input of it to a feed in Dashboards or Low-Code Apps to:
+You can use this data source in a dynamic context by linking its input to data in dashboards or low-code apps to do the following:
 
-- Monitor active alarms for a specific service
-- Display alarm information in dashboards with real-time updates
-- Filter and analyze service alarms by severity, owner, or time
+- Monitor active alarms for a specific service.
+- Display alarm information in dashboards with real-time updates.
+- Filter and analyze service alarms by severity, owner, or time.
